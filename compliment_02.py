@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: rob warner
+# DATE: march 14, 2026
+# BRIEF DESCRIPTION:  compliment generator
 
 
 
@@ -15,7 +15,19 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+response=input ("Would you like a compliment?")
 
+import random
+compliments = ["You're awesome!",
+               "Great Job!",
+               "You are amazing!"]
+
+
+
+if response=='yes': 
+    print(random.choice(compliments))
+
+print ("Thank you for playing.")
 
 
 
